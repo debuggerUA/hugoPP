@@ -1,0 +1,4 @@
+baseURL = "http://www.babak.contact/"
+languageCode = "en-us"
+title = "Denis Babak"
+theme = "researcher"
