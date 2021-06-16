@@ -20,12 +20,9 @@ jobs:
         with:
           hugo-version: 'latest'
           # extended: true
-      
-      - name: CD
-        run: cd cv
 
       - name: Build
-        run: hugo --minify
+        run: cd cv | hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
